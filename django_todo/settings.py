@@ -27,7 +27,7 @@ SECRET_KEY = 'yw$!giam9-_1l^+_!y5ga#f9bjzfn4&h5*$9z^8&+1o1!0cufv'
 DEBUG = False
 
 
-SITE_URL = 'https://your-heroku-app.herokuapp.com'
+SITE_URL = 'django--todo.herokuapp.com'
 ALLOWED_HOSTS = ['127.0.0.1', 'django--todo.herokuapp.com']
 
 
