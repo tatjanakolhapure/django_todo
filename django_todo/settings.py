@@ -44,8 +44,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_docs',
     'todo',
-    'accounts',
-    'corsheaders',
+    'accounts'
 ]
 
 REST_FRAMEWORK = {
@@ -72,8 +71,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
-    'corsheaders.middleware.CorsMiddleware'
+    'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
 ROOT_URLCONF = 'django_todo.urls'
@@ -165,6 +163,3 @@ LOGGING = {
         },
     },
 }
-
-
-
